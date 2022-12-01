@@ -7,16 +7,14 @@
 
 int main()
 {
-    std::ifstream infile("input/day1");
+    std::ifstream infile("../input/day1");
     std::string line;
     
     std::vector<int> elves{};
     int cnt = 0;
 
-
     while (std::getline(infile, line))
     {
-        
         if (line.empty())
         {
             elves.push_back(cnt);

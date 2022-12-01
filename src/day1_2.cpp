@@ -7,7 +7,7 @@
 
 int main()
 {
-    std::ifstream infile("input/day1");
+    std::ifstream infile("../input/day1");
     std::string line;
     
     std::vector<int> elves{};
